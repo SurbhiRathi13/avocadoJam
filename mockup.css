@@ -22,8 +22,11 @@ body{
 }
 .navbar__items{
     display:flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 5px 10px;
+}
+.navbar__item{
+    padding: 0 4px;
 }
 .primary__button{
     display:none;
@@ -58,8 +61,6 @@ body{
     display:none;
 }
 
-.hero__image{
-}
 .image{
     position:relative;
     width:50%;
@@ -112,6 +113,11 @@ body{
     .navbar__items__laptop{
         display:flex;
         padding:5px;
+        justify-content: space-evenly;
+    }
+    .navbar__item{
+        font-size: 28px;
+        padding: 8px;
     }
     .heading{
         display:flex;
@@ -124,17 +130,7 @@ body{
         border-radius: 5px;
         font-weight: 10px;
     }
-    /* .hero__image{
-        position:relative;
-        width:50%;
-        height:500px;
-        margin: 0 20%;
-    }
-    .image{
-        width:75%;
-        position:absolute;
-        margin:20px;
-    } */
+
     .follow__us{
         font-size: 30px;
     }
