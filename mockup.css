@@ -112,12 +112,12 @@ body{
     }
     .navbar__items__laptop{
         display:flex;
-        padding:5px;
+        padding:5px 20px;
         justify-content: space-evenly;
     }
     .navbar__item{
         font-size: 28px;
-        padding: 8px;
+        padding: 8px 20px;
     }
     .heading{
         display:flex;
