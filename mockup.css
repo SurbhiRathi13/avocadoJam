@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: 'Cinzel', serif;
+   background-image:url(https://thumbs.dreamstime.com/b/vector-avocado-toast-seamless-pattern-half-slices-white-background-healthy-breakfast-natural-vegan-food-endless-145080656.jpg);
+    /* background-image: url(https://www.bing.com/images/search?view=detailV2&ccid=O%2F9fCxaV&id=2BF1061147B86F67559A05F5D27A5FD64A7F7434&thid=OIP.O_9fCxaVmpWuV-L0zkYCnwHaHa&mediaurl=https%3A%2F%2Fthumbs.dreamstime.com%2Fb%2Fvector-avocado-toast-seamless-pattern-half-slices-white-background-healthy-breakfast-natural-vegan-food-endless-145080656.jpg&exph=800&expw=800&q=background+avocado+doodle&simid=607986229037962607&form=IRPRST&ck=1204B46B444CB9482B91D4154688FCF3&selectedindex=2&ajaxhist=0&ajaxserp=0&pivotparams=insightsToken%3Dccid_yQafPKWY*cp_1AC9992C446BBB113358A370D75CD262*mid_C7EF873377902E6766CF4697497DBB676D4E4C8C*simid_608017358951680680*thid_OIP.yQafPKWYeBIZm8ERbIqv3gHaH!_&vt=0&sim=11&iss=VSI&ajaxhist=0&ajaxserp=0); */
+}
+
+.navbar{
+    position:sticky;
+    padding: 5px;
+    top:0;/*with sticky it is a must to define anyone of top, bottom, left, right*/
+    display:flex;
+    z-index:999;
+    justify-content: space-between;
+    background-color: white;
+    /* background-image: linear-gradient(to left, rgb(156, 224, 202) 0%, rgb(152, 212, 152) 20%, aquamarine 50%, rgb(124, 189, 167) 100%); */
+}
+.navbar__items{
+    display:flex;
+    justify-content: space-around;
+    padding: 5px 10px;
+}
+.primary__button{
+    display:none;
+}
+.logo__container{
+    display:block;
+    z-index:-999;
+    width: 100%;
+
+}
+.logo{
+    width:100%;
+}
+.icon{
+    position:relative;
+    width:30px;
+}
+.heading{
+    display: flex;
+    justify-content: space-evenly;
+}
+.avocado{
+    position:absolute;
+    width:100%;
+}
+.hamburger__icon{
+    background-color: transparent;
+    size: 50px;
+    border: none;
+}
+.navbar__items__laptop{
+    display:none;
+}
+
+.hero__image{
+}
+.image{
+    position:relative;
+    width:50%;
+    margin-top: 20px;
+    margin-left: 25%;
+    box-align:center;
+    border:darkolivegreen solid 3px;
+    
+
+}
+.features{
+    display:flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:5px;
+    padding:10px;
+}
+.feature{
+    position:relative;
+    background-color: white;
+    border:darkolivegreen solid 2px;
+    border-radius:5px;
+}
+
+.footer__element{
+    margin-top:100px;
+    text-align: center;
+    background-color: aquamarine;
+    padding:5px;
+}
+.icon{
+    display:inline;
+}
+.follow__us{
+    margin:5px;
+}
+/* .logo__container__laptop{
+    display:none;
+} */
+
+@media(min-width:1024px){
+    .navbar{
+        display:fixed;
+    }
+   
+    .navbar__items{
+        display:none;
+    }
+    .navbar__items__laptop{
+        display:flex;
+        padding:5px;
+    }
+    .heading{
+        display:flex;
+        padding:5px;
+        justify-content: space-around;
+    }
+    .order{
+        padding:10px;
+        background-color: green;
+        border-radius: 5px;
+        font-weight: 10px;
+    }
+    /* .hero__image{
+        position:relative;
+        width:50%;
+        height:500px;
+        margin: 0 20%;
+    }
+    .image{
+        width:75%;
+        position:absolute;
+        margin:20px;
+    } */
+    .follow__us{
+        font-size: 30px;
+    }
+
+}
