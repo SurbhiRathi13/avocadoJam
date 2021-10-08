@@ -68,7 +68,7 @@ body{
     margin-left: 25%;
     box-align:center;
     border:darkolivegreen solid 3px;
-    
+    box-shadow: 5px 5px 10px green;
 
 }
 .last__buttons{
@@ -91,7 +91,7 @@ body{
     margin:20px 10px;
     background-color: honeydew;
     font-weight: 30px;
-    border:olivedrab;
+   
 
 }
 /* .buy__now__button{
@@ -190,6 +190,9 @@ body{
     }
     .link{
         margin: 50px 35%;
+    }
+    .link__next{
+        font-size: 20px;
     }
     .last__buttons{
         justify-content:center;
