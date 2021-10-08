@@ -71,26 +71,67 @@ body{
     
 
 }
+.last__buttons{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.order__now{
+    padding:10px;
+    background-color: green;
+    border-radius: 5px;
+    font-weight: 10px;
+    margin-left:40%;
+    box-shadow: 5px 5px 10px green;
+    margin: 10px 0;
+}
+.link__next{
+    position:relative;
+    text-align: center;
+    margin:20px 10px;
+    background-color: honeydew;
+    font-weight: 30px;
+    border:olivedrab;
+
+}
+/* .buy__now__button{
+    position:relative;
+    margin-right:50%;
+
+}
+.buy__now{
+    position:relative; 
+    margin-right:40%;
+    background-color: red;
+} */
 .features{
     display:flex;
     /* flex-direction: column; */
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     margin:5px;
     padding:10px;
 }
 .feature{
+    box-shadow: 5px 5px 10px green;
     position:relative;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
     background-color: white;
     border:darkolivegreen solid 2px;
     border-radius:5px;
 }
-
+.text{
+    padding:5px;
+    margin:10px;
+}
 .footer__element{
     margin-top:100px;
     text-align: center;
     background-color: aquamarine;
-    padding:5px;
+    padding:10px;
+
 }
 .icon{
     display:inline;
@@ -102,6 +143,16 @@ body{
     display:none;
 } */
 
+.jar__sizes{
+    position:relative;
+    width:100%;
+    margin-right:30%;
+    background-color: white;
+    margin: 20px 0;
+}
+.jar__size{
+    text-align: center;
+}
 @media(min-width:1024px){
     .navbar{
         display:fixed;
@@ -129,10 +180,21 @@ body{
         background-color: green;
         border-radius: 5px;
         font-weight: 10px;
+        font-size: 15px;
     }
-
+    .featues{
+        margin-top:100px;
+    }
     .follow__us{
         font-size: 30px;
     }
-
+    .link{
+        margin: 50px 35%;
+    }
+    .last__buttons{
+        justify-content:center;
+    }
+    .order__now{
+        font-size: 25px;
+    }
 }
