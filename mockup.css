@@ -35,7 +35,10 @@ body{
     display:block;
     z-index:-999;
     width: 100%;
+}
 
+.name{
+    margin-top:3px;
 }
 .logo{
     width:100%;
@@ -157,7 +160,15 @@ body{
     .navbar{
         display:fixed;
     }
-   
+    .avocado{
+        width:40px;
+    }
+   .name{
+       position:relative;
+       margin-left:10px;
+       font-size: 30px;
+
+   }
     .navbar__items{
         display:none;
     }
